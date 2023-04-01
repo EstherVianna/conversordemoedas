@@ -1,0 +1,3 @@
+  Projeto criado a partir da idéia de uma aula no intensivão da Alura.
+  Ao invés de criar o conversor de apenas uma moeda, utilizei uma pagina base pra direcionar o usuário para diversas moedas que podem ser convertidas.Essas moedas são: Bitcoin, dólar, euro, libra esterlina e peso argentino.
+  Para poder converter essas moedas com valores atualizados a qualquer hora do dia, está sendo consumida a AwesomeAPI através do Fetch no javascript pra realizar essa requisição http.

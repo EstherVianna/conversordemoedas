@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nobile:ital@1&display=swap');
+
+body {
+    font-family: 'Nobile', sans-serif;
+    min-height: 400px;
+    background-size: 100vw 100vh;
+    background-image: url(/imgs/layered-waves-haikei.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 50px;   
+    font-size: 5em;
+    font-style: italic;
+    font-weight: 400;
+    color: #90EBA9;
+}
+
+select{
+    padding: 10px;
+    background-color: transparent;
+    color: #90EBA9;
+}
+
+option{
+    background-color: #001220;
+}

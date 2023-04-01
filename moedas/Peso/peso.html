@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/moedas.css">
+    <title>Conversor de Real-Peso</title>
+</head>
+<body>
+    <header>
+        <h1 class="page-title">Conversor de moedas</h1>
+        <a href="/index.html" class="others">CONVERTA EM OUTRAS MOEDAS</a>
+    </header>
+    <div class="container">
+        <h3 class="page-subtitle">
+          Descubra os valores em Pesos argentino $
+        </h3>
+        <label for="valor"></label><br>
+        <input id="valor" max-size="10"  placeholder="Insira o valor em peso" autocomplete="off"/><br>
+        <button type="submit" onclick="Convert()">Converter</button>
+        <h2 id="valorConvertido"></h2>
+      </div>
+</body>
+<script src="/moedas/Peso/peso.js"></script>
+</html>
