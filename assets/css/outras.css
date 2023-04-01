@@ -9,7 +9,7 @@ body {
     font-family: 'Nobile', sans-serif;
     min-height: 400px;
     background-size: 100vw 100vh;
-    background-image: url(/imgs/layered-waves-haikei.svg);
+    background-image: url(assets/imgs/layered-waves-haikei.svg);
     background-size: cover;
     background-repeat: no-repeat;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
