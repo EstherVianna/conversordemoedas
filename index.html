@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/outras.css">
+    <link rel="stylesheet" href="assets/css/mediaqueries.css">
     <title>Conversores</title>
 </head>
 <body>
     <form>
         <label for="coins">Escolha uma moeda</label>
             <select name="coins" class="options" onchange="currencyPage()">
-                <option value="choose">--------</option>
+                <option value="" disabled selected hidden>Clique aqui</option>
                 <option value="btc">Bitcoin</option>
                 <option value="dolar">Dólar</option>
                 <option value="euro">Euro</option>

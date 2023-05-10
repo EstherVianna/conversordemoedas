@@ -1,0 +1,39 @@
+@media screen and (max-width:767px){
+    body{
+        height: 100vh;
+        display: flex;
+    }
+
+    form{
+        padding: 30px;
+    }
+
+    label{
+        font-size: 36px;
+        text-align: center;
+    }
+
+    select{
+        padding: 10px 15px;
+    }
+
+    option{
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    body{
+        height: 100vh;
+        display: flex;
+    }
+    
+    form{
+        padding: 40px;
+    }
+
+    label{
+        font-size: 48px;
+        text-align: center;
+    }
+}

@@ -7,32 +7,38 @@
 
 body {
     font-family: 'Nobile', sans-serif;
-    min-height: 400px;
-    background-size: 100vw 100vh;
     background-image: url(../imgs/layered-waves-haikei.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    max-height: 100vh;
 }
 
 form{
     display: flex;
+    margin: 0 auto;
     align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    flex-flow: column wrap;
+    gap: 50px;
     padding: 50px;   
-    font-size: 5em;
+    font-size: 48px;
     font-style: italic;
     font-weight: 400;
     color: #90EBA9;
 }
 
+label{
+    font-size: 54px;
+    text-align: center;
+}
+
 select{
-    padding: 10px;
-    background-color: transparent;
+    padding: 10px 20px;
+    font-size: 24px;
+    background-color: #001220;
     color: #90EBA9;
 }
 
 option{
-    background-color: #001220;
+    font-size: 16px;
+    background-color: inherit;
 }
